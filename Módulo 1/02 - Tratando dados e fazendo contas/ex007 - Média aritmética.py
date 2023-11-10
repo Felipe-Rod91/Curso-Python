@@ -1,4 +1,4 @@
-#programa para mostrar a média entre 2 notas de um aluno
+# Programa para mostrar a média entre 2 notas de um aluno
 
 nota1 = float(input('Qual a nota do primeiro semestre? '))
 nota2 = float(input('Qual a nota do segundo semestre? '))
