@@ -2,7 +2,7 @@
 
 from time import sleep
 
-print('=|=' * 5, 'ANALISADOR DE TRIÂNGULOS', '=|=' * 5 )
+print('=|=' * 5, 'ANALISADOR DE TRIÂNGULOS', '=|=' * 5)
 
 l1 = float(input('Digite o comprimento da linha 1: '))
 l2 = float(input('Digite o comprimento da linha 2: '))
