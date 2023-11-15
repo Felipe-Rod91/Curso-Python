@@ -15,5 +15,5 @@ if b > a and b > c:
 if c > a or c > b:
     maior = c
 
-print('O maior número é {}.'.format(maior))
-print('O menor número é {}.'.format(menor))
+print(f'O maior número é {maior}.')
+print(f'O menor número é {menor}.')

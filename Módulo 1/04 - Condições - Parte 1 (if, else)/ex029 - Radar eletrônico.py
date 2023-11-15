@@ -5,7 +5,7 @@ vel = int(input('Qual a velocidade do carro em km/h? '))
 print('Calculando...')
 
 if vel > 80:
-    print('Você ultrapassou a velocidade máxima permitida em {}km/h.'.format(vel - 80))
-    print('Sua multa é de {:.2f} reais'.format((vel - 80) * 7))
+    print(f'Você ultrapassou a velocidade máxima permitida em {vel - 80}km/h.')
+    print(f'Sua multa é de {(vel - 80) * 7:.2f} reais')
 else:
     print('Você estava dentro do limite de velocidade permitido. Boa viagem!')

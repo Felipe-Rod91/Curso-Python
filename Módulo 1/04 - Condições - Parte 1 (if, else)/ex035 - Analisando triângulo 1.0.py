@@ -15,6 +15,6 @@ vermelho = '\33[1;31m'
 fecha = '\033[m'
 
 if l1 < l2 + l3 and l2 < l1 + l3 and l3 < l1 + l2:
-    print('As três linhas {}PODEM{} formar um triângulo.'.format(verde, fecha))
+    print(f'As três linhas {verde} PODEM {fecha} formar um triângulo.')
 else:
-    print('As três linhas {}NÃO PODEM{} formar um triângulo.'.format(vermelho, fecha))
+    print(f'As três linhas {vermelho} NÃO PODEM {fecha} formar um triângulo.'.format(vermelho, fecha))

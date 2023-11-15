@@ -4,7 +4,7 @@
 dist = int(input('Qual a distância da viagem em km? '))
 
 if dist <= 200:
-    print('Sua viagem de {}km vai custar {:.2f} reais'.format(dist, dist * 0.50))
+    print(f'Sua viagem de {dist}km vai custar {dist * 50:.2f} reais')
 else:
-    print('Sua viagem de {}km vai custar {:.2f} reais'.format(dist, dist * 0.45))
+    print(f'Sua viagem de {dist}km vai custar {dist * 0.45:.2f} reais')
 print('BOA VIAGEM!')

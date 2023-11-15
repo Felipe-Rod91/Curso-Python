@@ -4,7 +4,10 @@
 sal = float(input('Qual o salário do funcionário? '))
 
 if sal > 1250:
-    print('O seu salário de {:.2f} reais terá um aumento de 10%, ou seja, {:.2f} reais, e será um total de {:.2f} reais.'.format(sal, sal * 0.1, sal + (sal * 0.1)))
+    print(f'O seu salário de {sal:.2f} reais terá um aumento de 10%, ou seja, {sal * 0.1:.2f} reais, e será um total '
+          f'de {sal + (sal * 0.1):.2f} reais.')
 else:
-    print('O seu salário de {:.2f} reais terá um aumento de 15%, ou seja, {:.2f} reais, e será um total de {:.2f} reais.'.format(sal, sal * 0.15, sal + (sal * 0.15)))
+    print(f'O seu salário de {sal:.2f} reais terá um aumento de 15%, ou seja, {sal * 0.15:.2f} reais, e será um total '
+          f'de {sal + (sal * 0.15):.2f} reais.')
+
 print('Parabéns pelo aumento, continue o bom trabalho!')

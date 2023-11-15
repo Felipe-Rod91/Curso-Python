@@ -19,4 +19,4 @@ sleep(3)
 if num == computador:
     print('Parabéns! Era exatamente esse número =D')
 else:
-    print('ERROOOOUUU! Eu tava pensando no {}.'.format(computador))
+    print(f'ERROOOOUUU! Eu tava pensando no {computador}.')
