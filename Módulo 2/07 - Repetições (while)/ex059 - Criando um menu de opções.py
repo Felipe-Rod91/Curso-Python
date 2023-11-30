@@ -1,4 +1,13 @@
+#Crie um programa que leia dois valores e mostre um menu na tela:
+#[ 1 ] somar
+#[ 2 ] multiplicar
+#[ 3 ] maior
+#[ 4 ] novos números
+#[ 5 ] sair do programa
+#Seu programa deverá realizar a operação solicitada em cada caso.
+
 from time import sleep
+
 opcao = 0
 n1 = int(input('Primeiro valor: '))
 n2 = int(input('Segundo valor: '))
@@ -10,9 +19,9 @@ while opcao != 5:
 --[ 5 ] Sair do programa''')
     opcao = int(input('Digite a opção desejada: '))
     if opcao == 1:
-        print('A soma entre os dois números é {}.'.format(n1 + n2))
+        print(f'A soma entre os dois números é {n1 + n2}.')
     if opcao == 2:
-        print('A multiplicação entre os dois números é {}.'.format(n1 * n2))
+        print(f'A multiplicação entre os dois números é {n1 * n2}.')
     if opcao == 3:
         if n1 > n2:
             print('O primeiro valor é maior que o segundo.')
@@ -28,10 +37,3 @@ while opcao != 5:
 print('Finalizando...')
 sleep(3)
 print('Programa encerrado.')
-#Crie um programa que leia dois valores e mostre um menu na tela:
-#[ 1 ] somar
-#[ 2 ] multiplicar
-#[ 3 ] maior
-#[ 4 ] novos números
-#[ 5 ] sair do programa
-#Seu programa deverá realizar a operação solicitada em cada caso.

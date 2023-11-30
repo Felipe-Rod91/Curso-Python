@@ -1,4 +1,8 @@
+#Melhore o jogo do DESAFIO 28 onde o computador vai “pensar” em um número entre 0 e 10. Só que agora o jogador vai
+#tentar adivinhar até acertar, mostrando no final quantos palpites foram necessários para vencer.
+
 from random import randint
+
 computador = randint(0, 10)
 tentativas = 0
 print('Pensei em um número entre 0 e 10.')
@@ -14,10 +18,8 @@ while not acertou:
             print('Menos... tente mais uma vez.')
         if jogador < computador:
             print('Mais... tente mais uma vez.')
-print('PARABÉNS, VOCÊ ACERTOU! Eu estava pensando no {}.'.format(computador))
+print(f'PARABÉNS, VOCÊ ACERTOU! Eu estava pensando no {computador}.')
 if tentativas == 1:
     print('VOCÊ ACERTOU DE PRIMEIRA, BRABO DEMAIS!')
 else:
-    print('Foram necessárias {} tentativas para acertar'.format(tentativas))
-#Melhore o jogo do DESAFIO 28 onde o computador vai “pensar” em um número entre 0 e 10. Só que agora o jogador vai
-#tentar adivinhar até acertar, mostrando no final quantos palpites foram necessários para vencer.
+    print(f'Foram necessárias {tentativas} tentativas para acertar.')

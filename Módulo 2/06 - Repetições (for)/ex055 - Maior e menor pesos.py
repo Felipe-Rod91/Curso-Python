@@ -1,7 +1,9 @@
+#Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.
+
 maior = 0
 menor = 0
 for pessoa in range(1,6):
-    peso = float(input('Quantos quilos a {}ª pessoa pesa? '.format(pessoa)))
+    peso = float(input(f'Quantos quilos a {pessoa}ª pessoa pesa? '))
     if pessoa == 1:
         maior = peso
         menor = peso
@@ -10,5 +12,4 @@ for pessoa in range(1,6):
             maior = peso
         if peso < menor:
             menor = peso
-print('A pessoa com maior peso tem {:.1f}kg, e a com menor peso tem {:.1f}kg.'.format(maior, menor))
-#Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.
+print(f'A pessoa com maior peso tem {maior:.1f}kg, e a com menor peso tem {menor:.1f}kg.')
