@@ -1,3 +1,9 @@
+# Crie um programa que leia o nome e o preço de vários produtos. O programa deverá perguntar se o usuário vai continuar
+# ou não. No final, mostre:
+# A) qual é o total gasto na compra.
+# B) quantos produtos custam mais de R$1000.
+# C) qual é o nome do produto mais barato.
+
 mais1000 = menor = total = produtos = 0
 continuar = ' '
 print('-' * 20)
@@ -25,8 +31,3 @@ print('Finalizando...')
 print(f'O total gasto nas compras é R${total:.2f}.')
 print(f'Dentre os produtos, {mais1000} deles custam mais de mil reais.')
 print(f'O produto mais barato é o {produtinho}, que custa R${menor:.2f}.')
-# Crie um programa que leia o nome e o preço de vários produtos. O programa deverá perguntar se o usuário vai continuar
-# ou não. No final, mostre:
-# A) qual é o total gasto na compra.
-# B) quantos produtos custam mais de R$1000.
-# C) qual é o nome do produto mais barato.
