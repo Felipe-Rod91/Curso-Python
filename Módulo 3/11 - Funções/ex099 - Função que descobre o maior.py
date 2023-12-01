@@ -1,3 +1,7 @@
+# Faça um programa que tenha uma função chamada maior(), que receba vários parâmetros com valores inteiros. Seu programa
+# tem que analisar todos os valores e dizer qual deles é o maior.
+
+
 def maior(* num):
     lista = []
     maior_valor = 0
@@ -18,5 +22,3 @@ maior(7, 2, 6)
 maior(6, 4, -2, 99, 56, 12, 110)
 maior(5, 2, 6, 4, 6, 2)
 maior()
-# Faça um programa que tenha uma função chamada maior(), que receba vários parâmetros com valores inteiros. Seu programa
-# tem que analisar todos os valores e dizer qual deles é o maior.

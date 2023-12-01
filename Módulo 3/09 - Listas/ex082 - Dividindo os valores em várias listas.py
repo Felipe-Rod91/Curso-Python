@@ -1,3 +1,7 @@
+# Crie um programa que vai ler vários números e colocar em uma lista. Depois disso, crie duas listas extras que vão
+# conter apenas os valores pares e os valores ímpares digitados, respectivamente. Ao final, mostre o conteúdo das três
+# listas geradas.
+
 lista = []
 pares = []
 impares = []
@@ -16,6 +20,3 @@ for i, n in enumerate(lista):
 print(f'A lista completa dos números digitados é {lista}.')
 print(f'Os números pares são {pares}.')
 print(f'Os números ímpares são {impares}.')
-# Crie um programa que vai ler vários números e colocar em uma lista. Depois disso, crie duas listas extras que vão
-# conter apenas os valores pares e os valores ímpares digitados, respectivamente. Ao final, mostre o conteúdo das três
-# listas geradas.

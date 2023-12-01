@@ -1,4 +1,8 @@
+# Faça um mini-sistema que utilize o Interactive Help do Python. O usuário vai digitar o comando e o manual vai
+# aparecer. Quando o usuário digitar a palavra ‘FIM’, o programa se encerrará. Importante: use cores.
+
 from time import sleep
+
 color = ('\033[m',  # 0 - sem cor
          '\033[0;30;41m',  # 1 - vermelho
          '\033[0;30;42m',  # 2 - verde
@@ -35,5 +39,3 @@ while True:
     else:
         ajuda(comando)
 titulo('  OBRIGADO E ATÉ LOGO!  ', 2)
-# Faça um mini-sistema que utilize o Interactive Help do Python. O usuário vai digitar o comando e o manual vai
-# aparecer. Quando o usuário digitar a palavra ‘FIM’, o programa se encerrará. Importante: use cores.

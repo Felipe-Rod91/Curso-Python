@@ -1,3 +1,12 @@
+# Faça um programa que tenha uma função notas() que pode receber várias notas de alunos e vai retornar um dicionário
+# com as seguintes informações:
+# – Quantidade de notas
+# – Maior nota
+# - Menor nota
+# – Média da turma
+# – Situação (opcional)
+
+
 def notas(*n, sit=False):
     """
     -> Função para analisar notas e situações de vários alunos.
@@ -22,11 +31,3 @@ def notas(*n, sit=False):
 
 resp = notas(9, 8, 9, sit=True)
 print(resp)
-
-# Faça um programa que tenha uma função notas() que pode receber várias notas de alunos e vai retornar um dicionário
-# com as seguintes informações:
-# – Quantidade de notas
-# – Maior nota
-# - Menor nota
-# – Média da turma
-# – Situação (opcional)

@@ -1,3 +1,6 @@
+# Crie um programa onde o usuário possa digitar cinco valores numéricos e cadastre-os em uma lista, já na posição
+# correta de inserção (sem usar o sort()). No final, mostre a lista ordenada na tela.
+
 lista_numerica = []
 for c in range(0, 5):
     num = int(input(f'Digite o número: '))
@@ -13,5 +16,3 @@ for c in range(0, 5):
                 break
             pos += 1
 print(f'Os valores em ordem foram {lista_numerica}.')
-# Crie um programa onde o usuário possa digitar cinco valores numéricos e cadastre-os em uma lista, já na posição
-# correta de inserção (sem usar o sort()). No final, mostre a lista ordenada na tela.

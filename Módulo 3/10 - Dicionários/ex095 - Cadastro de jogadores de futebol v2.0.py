@@ -1,4 +1,8 @@
+# Aprimore o desafio 93 para que ele funcione com vários jogadores, incluindo um sistema de visualização de detalhes do
+# aproveitamento de cada jogador.
+
 from time import sleep
+
 jogadores = list()
 jogador = dict()
 gols = list()
@@ -43,5 +47,3 @@ while True:
         print('-=' * 20)
 print('Você digitou 999...')
 print('PROGRAMA ENCERRADO!')
-# Aprimore o desafio 93 para que ele funcione com vários jogadores, incluindo um sistema de visualização de detalhes do
-# aproveitamento de cada jogador.

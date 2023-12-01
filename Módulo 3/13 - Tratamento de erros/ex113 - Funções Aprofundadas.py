@@ -1,3 +1,7 @@
+# Reescreva a função leiaInt() que fizemos no desafio 104, incluindo agora a possibilidade da digitação de um número de
+# tipo inválido. Aproveite e crie também uma função leiaFloat() com a mesma funcionalidade.
+
+
 def leia_int(msg):
     while True:
         try:
@@ -29,5 +33,3 @@ def leia_float(msg):
 numero_inteiro = leia_int('Digite um número inteiro: ')
 numero_real = leia_float('Digite um número real: ')
 print(f'O valor inteiro foi {numero_inteiro} e o real foi {numero_real}.')
-# Reescreva a função leiaInt() que fizemos no desafio 104, incluindo agora a possibilidade da digitação de um número de
-# tipo inválido. Aproveite e crie também uma função leiaFloat() com a mesma funcionalidade.

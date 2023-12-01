@@ -1,3 +1,5 @@
+# Crie um código em Python que teste se o site pudim está acessível pelo computador usado.
+
 import urllib.request
 
 try:
@@ -6,4 +8,3 @@ except:
     print('\033[031mSite do pudim não está acessível no momento.\033[m')
 else:
     print('\033[032mSite do pudim está acessível.\033[m')
-# Crie um código em Python que teste se o site pudim está acessível pelo computador usado.

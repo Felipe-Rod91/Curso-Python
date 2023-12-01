@@ -1,3 +1,6 @@
+# Faça um programa que leia nome e média de um aluno, guardando também a situação em um dicionário. No final, mostre o
+# conteúdo da estrutura na tela.
+
 dados = dict()
 dados['aluno'] = str(input('Nome: '))
 dados['media'] = float(input(f'Média semestral de {dados["aluno"]}: '))
@@ -11,5 +14,3 @@ elif 5 <= dados['media'] < 7:
 else:
     dados['situaçao'] = 'REPROVADO(A)'
 print(f'- Situação de {dados["aluno"]} é {dados["situaçao"]}!')
-# Faça um programa que leia nome e média de um aluno, guardando também a situação em um dicionário. No final, mostre o
-# conteúdo da estrutura na tela.

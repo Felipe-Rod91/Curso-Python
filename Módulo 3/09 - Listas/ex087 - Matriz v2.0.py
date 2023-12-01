@@ -1,3 +1,8 @@
+# Aprimore o desafio anterior, mostrando no final:
+# A) A soma de todos os valores pares digitados.
+# B) A soma dos valores da terceira coluna.
+# C) O maior valor da segunda linha.
+
 matriz = [0, 0, 0], [0, 0, 0], [0, 0, 0]
 pares = terceira = maior = 0
 for l in range(0, 3):
@@ -16,7 +21,3 @@ print('-=' * 30)
 print(f'A soma de todos os pares digitados é {pares}.')
 print(f'A soma dos valores da terceira coluna é {terceira}.')
 print(f'O maior valor da segunda linha é {max(matriz[1])}.')
-# Aprimore o desafio anterior, mostrando no final:
-# A) A soma de todos os valores pares digitados.
-# B) A soma dos valores da terceira coluna.
-# C) O maior valor da segunda linha.

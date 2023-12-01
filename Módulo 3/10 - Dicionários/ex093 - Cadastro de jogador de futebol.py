@@ -1,3 +1,7 @@
+# Crie um programa que gerencie o aproveitamento de um jogador de futebol. O programa vai ler o nome do jogador e
+# quantas partidas ele jogou. Depois vai ler a quantidade de gols feitos em cada partida. No final, tudo isso será
+# guardado em um dicionário, incluindo o total de gols feitos durante o campeonato.
+
 jogador = dict()
 gols = list()
 jogador['nome'] = str(input('Nome do jogador: '))
@@ -17,6 +21,3 @@ print(f'O jogador {jogador["nome"]} jogou {jogador["partidas"]} partidas:')
 for i, v in enumerate(jogador['gols']):
     print(f'Na partida {i + 1} fez {v} gols.')
 print(f'No total, ele fez {jogador["total"]} gols.')
-# Crie um programa que gerencie o aproveitamento de um jogador de futebol. O programa vai ler o nome do jogador e
-# quantas partidas ele jogou. Depois vai ler a quantidade de gols feitos em cada partida. No final, tudo isso será
-# guardado em um dicionário, incluindo o total de gols feitos durante o campeonato.
