@@ -1,3 +1,5 @@
+# Vamos criar um menu em python, usando modularização
+
 from lib.interface.funções_interface import *
 from lib.arquivo.funções_arquivo import *
 from time import sleep
